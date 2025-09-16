@@ -2,7 +2,7 @@ name: Auto Trigger on SukiSU Update
 
 on:
   schedule:
-    - cron: '22 19 */1 * *'  # 每天执行一次
+    - cron: '0 0 */1 * *'  # 每天执行一次
   workflow_dispatch:     # 允许手动触发
 
 jobs:
